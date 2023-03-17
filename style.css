@@ -1,0 +1,234 @@
+.container{
+    width: 1000px;
+    margin: 1% auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+/* adjust layout for smaller screens */
+@media screen and (max-width: 768px) {
+    /* set container width to 90% */
+    .container {
+      width: 95%;
+    }
+  
+    /* adjust the layout of individual elements */
+    .section {
+      font-size: 90%;
+    }
+  
+    .content {
+      width: 100%;
+    }
+  }
+  
+  /* adjust layout for even smaller screens */
+  @media screen and (max-width: 576px) {
+    /* set container width to 100% */
+    .container {
+      width: 100%;
+    }
+  
+    /* adjust the layout of individual elements */
+    .section {
+      font-size: 100%;
+    }
+  
+    .content {
+      width: 100%;
+    }
+}
+
+#page{
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+.section{
+    border: 1px solid blue ;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#section1{
+    height:109px ;
+}
+#page-title{
+    width: 85%;
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+#logo{
+    width: 15%;
+    margin: 0;
+}
+#logo img{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+#section2{
+    height:156px ; 
+}
+#stud-info{
+    width: 85%;
+    overflow:hidden ;
+    margin: 0;
+}
+#sch-nm{
+    font-size: 75%;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 50px;
+    
+}
+#stud-det{
+    margin: 2%;
+    border: 1px solid black;
+    padding: 5px;
+}
+#stud-det-tbl{
+    font-size: 60%;
+    width: 100%;
+    height: 100%;
+   border: 1px solid black;
+   margin-right:5px ;
+   font-weight: 700;
+}
+.txt-fld{
+    height: 100%;
+    width: 90%;
+}
+#stud-photo{
+    width: 15%;
+    height: 100%;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+#stud-photo img{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}    
+#section3, #section4, #section5{
+    height: 383px;  
+}
+.block{
+    border: 1px solid black; 
+    display: flex;
+    flex-direction: column;
+}
+.mrk-table{
+    background-color: lightgray;
+    font-size: 90%;
+    margin: 5px;
+    margin-top: 0;
+}
+.table{
+    border: 1px solid black;
+    font-size: 80%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    height: 120%;
+    margin: 10px;
+
+}
+td{
+    border: 1px solid black;
+    width: 25%;
+    height: 80%;
+}
+.mta td{
+    border: 1px solid black;
+    width: 12.5%;
+    height: 80%;
+}
+.periodic{
+    width: 35%;
+    height: 100%;
+
+}
+.term{
+    width: 65%;
+    height: 100%;
+}
+.bold-num{
+    font-size: 100%;
+    font-weight: 700;
+}
+.tbl-font{
+    font-size: 80%;
+}
+#grade-block{
+    width: 14%;
+    white-space: nowrap;
+}
+
+#inst-block{
+    width:21%;
+}
+#inst{
+    margin:5% ;
+}
+#p3{
+    font-size: 60%;
+    line-height: 100%;
+    font-weight: 700;
+}
+#p2{
+    font-size: 50%;
+}
+#gdb{
+    border: 1px solid black;
+    margin: 1%;
+   
+}
+#gdb p{
+    margin: 6.5%;
+}
+#section6{   
+   text-align: center;
+   height: 50px;
+}
+.btn{
+    border-radius: 5px;
+    background-color: palevioletred;
+    font-family: 'Romanesco',sans-serif;
+    font-size: 20px;
+    width: 25%;
+    letter-spacing: 5%;
+    border-color: purple;
+}
+
+#successMessage {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 2px solid #333;
+    padding: 20px;
+    z-index: 9999;
+    background: "";
+    
+  }
+  
+  #successMessage p {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Pacifico',sans-serif;
+    
+  }
+  
+  #closeButton {
+    margin-top: 10px;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 200%;
+    font-family: 'Pacifico',sans-serif;
+  }
+ 

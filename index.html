@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mcd reult</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Romanesco&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="page">container
+        <div class="section" id="section1">
+            <div class="block" id="page-title">
+                <div class="box" >STUDENT ASSESSMENT REPORT 2022-2023
+                </div>
+                <div class="box" id="sch-nm">NAME OF SCHOOL-</div>
+                </div>
+            <div class="block" id="logo">
+                <img src="MCD_Logo.png" alt="">
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <div class="block" id="stud-info">
+                
+                <div class="box" id="stud-dtl">
+                    <table id="stud-det-tbl">
+                        <tr>
+                            <td>
+                                Name Of Student - 
+                            </td>
+                            <td colspan="3">
+                                <input type="text" class="txt-fld" >
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                              Father's/Guardian's Name - 
+                            </td>
+                            <td colspan="3">
+                                <input type="text" class="txt-fld" >
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <tr>
+                                    <td> Class & Section -</td>
+                                    <td><input type="text" class="txt-fld" ></td>
+                                    <td>Admission Number -</td>
+                                    <td><input type="text" class="txt-fld" ></td>
+                                </tr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <tr>
+                                    <td> Contact Number -</td>
+                                    <td><input type="text"  class="txt-fld"></td>
+                                    <td>Date Of Admission -</td>
+                                    <td><input type="text" class="txt-fld"></td>
+                                </tr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            
+                                Address -
+                            
+                            </td>
+                            <td colspan="3">
+                                <input type="text"  class="txt-fld">
+                            </td>
+                        </tr>
+                        </table> 
+                </div>
+            </div>
+            <div class="block" id="stud-photo">
+                <img src="sonu.jpeg" alt="sonu">
+            </div>
+        </div>
+        <div class="section" id="section3">
+            <div class="block mrk-table periodic"> 
+                <div class="box bold-num">Periodic Assessment- Mid Term</div>
+                <div class="box">
+                    <table class="table" id="pmt">
+                        <tbody>
+                            <tr class="bold-num">
+                                <td></td>
+                                <td>
+                                    1<sup>st</sup>
+                                </td>
+                                <td>
+                                    2<sup>nd</sup>
+                                </td>
+                                <td>
+                                    3<sup>rd</sup>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tbl-font">Total Marks &#8594</td>
+                                <td class="bold-num">20</td>
+                                <td class="bold-num">20</td>
+                                <td class="bold-num">20</td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Hindi</td>
+                                <td>
+                                    <input type="text" id="1st-hin-mta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="2nd-hin-mta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="3rd-hin-mta" class="txt-fld">
+                                </td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>English</td>
+                                <td>
+                                    <input type="text" id="1st-eng-mta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="2nd-eng-mta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="3rd-eng-mta" class="txt-fld">
+                                </td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Maths</td>
+                                <td>
+                                    <input type="text" id="1st-math" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="2nd-math" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="3rd-math" class="txt-fld">
+                                </td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Science</td>
+                                <td>
+                                    <input type="text" id="1st-sci-mta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="2nd-sci-mta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="3rd-sci-mta" class="txt-fld">
+                                </td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>S.S.T.</td>
+                                <td>
+                                    <input type="text" id="1st-sst-mta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="2nd-sst-mta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="3rd-sst-mta" class="txt-fld">
+                                </td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Co-Curricular</td>
+                                <td>
+                                    <input type="text" id="1st-ccr-mta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="2nd-ccr-mta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="3rd-ccr-mta" class="txt-fld">
+                                </td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Other______</td>
+                                <td>
+                                    <input type="text" id="1st-oth-mta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="2nd-oth-mta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="3rd-oth-mta" class="txt-fld">
+                                </td>
+                            </tr>
+                            <tr class="tbl-font" id="t-pmt">
+                                <td>Total</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        </table>
+                </div>
+            </div>
+            <div class="block mrk-table term">
+                <div class="box bold-num">Mid Term Assessment</div>
+                <div class="box">
+                    <table class="table mta" id="mta">
+                        <tbody>
+                            <tr class="bold-num">
+                                <td></td>
+                                <td class="tbl-font">
+                                    P.A.
+                                </td>
+                                <td class="tbl-font">
+                                    M.A. 
+                                </td>
+                                <td class="tbl-font">
+                                    Portfolio
+                                </td>
+                                <td class="tbl-font">
+                                    S.E.
+                                </td>
+                                <td class="tbl-font">
+                                 Mid Term
+                                </td>
+                                <td class="tbl-font">
+                                    Total
+                                </td>
+                                <td class="tbl-font">
+                                    Grade
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tbl-font">Total Marks &#8594</td>
+                                <td class="bold-num">5</td>
+                                <td class="bold-num">5</td>
+                                <td class="bold-num">5</td>
+                                <td class="bold-num">5</td>
+                                <td class="bold-num">30</td>
+                                <td class="bold-num">50</td>
+                                <td class="bold-num"></td>
+                                
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Hindi</td>
+                                <td></td>
+                                <td><input type="text" id="ma-hin-mta" class="txt-fld"></td>
+                                <td><input type="text" id="port-hin-mta" class="txt-fld"></td>
+                                <td><input type="text" id="se-hin-mta" class="txt-fld"></td>
+                                <td><input type="text" id="mt-hin-mta" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>English</td>
+                                <td></td>
+                                <td><input type="text" id="ma-eng-mta" class="txt-fld"></td>
+                                <td><input type="text" id="port-eng-mta" class="txt-fld"></td>
+                                <td><input type="text" id="se-eng-mta" class="txt-fld"></td>
+                                <td><input type="text" id="mt-eng-mta" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Maths</td>
+                                <td></td>
+                                <td><input type="text" id="ma-mat-mta" class="txt-fld"></td>
+                                <td><input type="text" id="port-mat-mta" class="txt-fld"></td>
+                                <td><input type="text" id="se-mat-mta" class="txt-fld"></td>
+                                <td><input type="text" id="mt-mat-mta" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Science</td>
+                                <td></td>
+                                <td><input type="text" id="ma-sci-mta" class="txt-fld"></td>
+                                <td><input type="text" id="port-sci-mta" class="txt-fld"></td>
+                                <td><input type="text" id="se-sci-mta" class="txt-fld"></td>
+                                <td><input type="text" id="mt-sci-mta" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>S.S.T.</td>
+                                <td></td>
+                                <td><input type="text" id="ma-sst-mta" class="txt-fld"></td>
+                                <td><input type="text" id="port-sst-mta" class="txt-fld"></td>
+                                <td><input type="text" id="se-sst-mta" class="txt-fld"></td>
+                                <td><input type="text" id="mt-sst-mta" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Co-Curricular</td>
+                                <td></td>
+                                <td><input type="text" id="ma-ccr-mta" class="txt-fld"></td>
+                                <td><input type="text" id="port-ccr-mta" class="txt-fld"></td>
+                                <td><input type="text" id="se-ccr-mta" class="txt-fld"></td>
+                                <td><input type="text" id="mt-ccr-mta" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Other______</td>
+                                <td></td>
+                                <td><input type="text" id="ma-oth-mta" class="txt-fld"></td>
+                                <td><input type="text" id="port-oth-mta" class="txt-fld"></td>
+                                <td><input type="text" id="se-oth-mta" class="txt-fld"></td>
+                                <td><input type="text" id="mt-oth-mta" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font" id="t-mta">
+                                <td>Total</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        </table>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section4">
+            
+            <div class="block mrk-table periodic"> 
+                <div class="box bold-num">Periodic Assessment- Final Term</div>
+                <div class="box">
+                    <table class="table">
+                        <tbody>
+                            <tr class="bold-num">
+                                <td></td>
+                                <td>
+                                    4<sup>st</sup>
+                                </td>
+                                <td>
+                                    5<sup>nd</sup>
+                                </td>
+                                <td>
+                                    6<sup>rd</sup>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tbl-font">Total Marks &#8594</td>
+                                <td class="bold-num">20</td>
+                                <td class="bold-num">20</td>
+                                <td class="bold-num">20</td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Hindi</td>
+                                <td>
+                                    <input type="text" id="4th-hin-fta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="5th-hin-fta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="6th-hin-fta" class="txt-fld">
+                                </td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>English</td>
+                                <td>
+                                    <input type="text" id="4th-eng-fta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="5th-eng-fta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="6th-eng-fta" class="txt-fld">
+                                </td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Maths</td>
+                                <td>
+                                    <input type="text" id="4th-mat-fta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="5th-mat-fta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="6th-mat-fta" class="txt-fld">
+                                </td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Science</td>
+                                <td>
+                                    <input type="text" id="4th-sci-fta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="5th-sci-fta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="6th-sci-fta" class="txt-fld">
+                                </td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>S.S.T.</td>
+                                <td>
+                                    <input type="text" id="4th-sst-fta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="5th-sst-fta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="6th-sst-fta" class="txt-fld">
+                                </td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Co-Curricular</td>
+                                <td>
+                                    <input type="text" id="4th-ccr-fta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="5th-ccr-fta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="6th-ccr-fta" class="txt-fld">
+                                </td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Other______</td>
+                                <td>
+                                    <input type="text" id="4th-oth-fta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="5th-ot-fta" class="txt-fld">
+                                </td>
+                                <td>
+                                    <input type="text" id="6th-oth-fta" class="txt-fld">
+                                </td>
+                            </tr>
+                            <tr class="tbl-font" id="pft">
+                                <td>Total</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        </table>
+                </div>
+            </div>
+            <div class="block mrk-table term">
+                <div class="box bold-num">Final Term Assessment</div>
+                <div class="box">
+                    <table class="table mta">
+                        <tbody>
+                            <tr class="bold-num">
+                                <td></td>
+                                <td class="tbl-font">
+                                    P.A.
+                                </td>
+                                <td class="tbl-font">
+                                    M.A. 
+                                </td>
+                                <td class="tbl-font">
+                                    Portfolio
+                                </td>
+                                <td class="tbl-font">
+                                    S.E.
+                                </td>
+                                <td class="tbl-font">
+                                 Mid Term
+                                </td>
+                                <td class="tbl-font">
+                                    Total
+                                </td>
+                                <td class="tbl-font">
+                                    Grade
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tbl-font">Total Marks &#8594</td>
+                                <td class="bold-num">5</td>
+                                <td class="bold-num">5</td>
+                                <td class="bold-num">5</td>
+                                <td class="bold-num">5</td>
+                                <td class="bold-num">30</td>
+                                <td class="bold-num">50</td>
+                                <td class="bold-num"></td>
+                                
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Hindi</td>
+                                <td></td>
+                                <td><input type="text" id="ma-hin-fta" class="txt-fld"></td>
+                                <td><input type="text" id="port-hin-fta" class="txt-fld"></td>
+                                <td><input type="text" id="se-hin-fta" class="txt-fld"></td>
+                                <td><input type="text" id="mt-hin-fta" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>English</td>
+                                <td></td>
+                                <td><input type="text" id="ma-eng-fta" class="txt-fld"></td>
+                                <td><input type="text" id="port-eng-fta" class="txt-fld"></td>
+                                <td><input type="text" id="se-eng-fta" class="txt-fld"></td>
+                                <td><input type="text" id="mt-eng-fta" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Maths</td>
+                                <td></td>
+                                <td><input type="text" id="ma-mat-fta" class="txt-fld"></td>
+                                <td><input type="text" id="port-mat-fta" class="txt-fld"></td>
+                                <td><input type="text" id="se-mat-fta" class="txt-fld"></td>
+                                <td><input type="text" id="mt-mat-fta" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Science</td>
+                                <td></td>
+                                <td><input type="text" id="ma-sci-fta" class="txt-fld"></td>
+                                <td><input type="text" id="port-sci-fta" class="txt-fld"></td>
+                                <td><input type="text" id="se-sci-fta" class="txt-fld"></td>
+                                <td><input type="text" id="mt-sci-fta" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>S.S.T.</td>
+                                <td></td>
+                                <td><input type="text" id="ma-sst-fta" class="txt-fld"></td>
+                                <td><input type="text" id="port-sst-fta" class="txt-fld"></td>
+                                <td><input type="text" id="se-sst-fta" class="txt-fld"></td>
+                                <td><input type="text" id="mt-sst-fta" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Co-Curricular</td>
+                                <td></td>
+                                <td><input type="text" id="ma-ccr-fta" class="txt-fld"></td>
+                                <td><input type="text" id="port-ccr-fta" class="txt-fld"></td>
+                                <td><input type="text" id="se-ccr-fta" class="txt-fld"></td>
+                                <td><input type="text" id="mt-ccr-fta" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Other______</td>
+                                <td></td>
+                                <td><input type="text" id="ma-oth-fta" class="txt-fld"></td>
+                                <td><input type="text" id="port-oth-fta" class="txt-fld"></td>
+                                <td><input type="text" id="se-oth-fta" class="txt-fld"></td>
+                                <td><input type="text" id="mt-oth-fta" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font" id="fta">
+                                <td>Total</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        </table>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section5">
+             <div class="block" id="grade-block">
+                <div class="box" id="gdb">
+                    <p id="p3">Grade Code-<br>for term<br> assessment -</p>
+                    <p id="p2">A:50-41</p>
+                    <p id="p2">B:40-31</p>
+                    <p id="p2">C:30-23</p>
+                    <p id="p2">D:22-16</p>
+                    <p id="p2">E:Less than 16</p>
+                </div>
+                <div class="box" id="gdb">
+                    <p id="p3">Grade Code-<br>for Final<br>Assessment<br>Report -</p>
+                    <p id="p2">A:100-80</p>
+                    <p id="p2">B:79-60</p>
+                    <p id="p2">C:59-45</p>
+                    <p id="p2">D:44-33</p>
+                    <p id="p2">E:Less than 33</p>
+                </div>
+             </div>
+             <div class="block mrk-table term">
+                <div class="box bold-num">Final Assessment Report</div>
+                <div class="box">
+                    <table class="table mta">
+                        <tbody>
+                            <tr class="bold-num">
+                                <td></td>
+                                <td class="tbl-font">
+                                    P.A.
+                                </td>
+                                <td class="tbl-font">
+                                    M.A. 
+                                </td>
+                                <td class="tbl-font">
+                                    Portfolio
+                                </td>
+                                <td class="tbl-font">
+                                    S.E.
+                                </td>
+                                <td class="tbl-font">
+                                 Mid Term
+                                </td>
+                                <td class="tbl-font">
+                                    Total
+                                </td>
+                                <td class="tbl-font">
+                                    Grade
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tbl-font">Total Marks &#8594</td>
+                                <td class="bold-num">5</td>
+                                <td class="bold-num">5</td>
+                                <td class="bold-num">5</td>
+                                <td class="bold-num">5</td>
+                                <td class="bold-num">30</td>
+                                <td class="bold-num">50</td>
+                                <td class="bold-num"></td>
+                                
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Hindi</td>
+                                <td></td>
+                                <td><input type="text" id="ma-hin-far" class="txt-fld"></td>
+                                <td><input type="text" id="port-hin-far" class="txt-fld"></td>
+                                <td><input type="text" id="se-hin-far" class="txt-fld"></td>
+                                <td><input type="text" id="mt-hin-far" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>English</td>
+                                <td></td>
+                                <td><input type="text" id="ma-eng-far" class="txt-fld"></td>
+                                <td><input type="text" id="port-eng-far" class="txt-fld"></td>
+                                <td><input type="text" id="se-eng-far" class="txt-fld"></td>
+                                <td><input type="text" id="mt-eng-far" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Maths</td>
+                                <td></td>
+                                <td><input type="text" id="ma-mat-far" class="txt-fld"></td>
+                                <td><input type="text" id="port-mat-far" class="txt-fld"></td>
+                                <td><input type="text" id="se-mat-far" class="txt-fld"></td>
+                                <td><input type="text" id="mt-mat-far" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Science</td>
+                                <td></td>
+                                <td><input type="text" id="ma-sci-far" class="txt-fld"></td>
+                                <td><input type="text" id="port-sci-far" class="txt-fld"></td>
+                                <td><input type="text" id="se-sci-far" class="txt-fld"></td>
+                                <td><input type="text" id="mt-sci-far" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>S.S.T.</td>
+                                <td></td>
+                                <td><input type="text" id="ma-sst-far" class="txt-fld"></td>
+                                <td><input type="text" id="port-sst-far" class="txt-fld"></td>
+                                <td><input type="text" id="se-sst-far" class="txt-fld"></td>
+                                <td><input type="text" id="mt-sst-far" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Co-Curricular</td>
+                                <td></td>
+                                <td><input type="text" id="ma-ccr-far" class="txt-fld"></td>
+                                <td><input type="text" id="port-ccr-far" class="txt-fld"></td>
+                                <td><input type="text" id="se-ccr-far" class="txt-fld"></td>
+                                <td><input type="text" id="mt-ccr-far" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font">
+                                <td>Other______</td>
+                                <td></td>
+                                <td><input type="text" id="ma-oth-far" class="txt-fld"></td>
+                                <td><input type="text" id="port-oth-far" class="txt-fld"></td>
+                                <td><input type="text" id="se-oth-far" class="txt-fld"></td>
+                                <td><input type="text" id="mt-oth-far" class="txt-fld"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="tbl-font" id="far">
+                                <td>Total</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        </table>
+                </div>
+            </div>
+             <div class="block" id="inst-block">
+                <div class="box grade-block" id="inst">
+                <p id="p3">Instruction-<br>P.A.=Periodic Assessment</p>
+                <p id="p2">(Monthly periodic assessment taken)</p>
+                <p id="p3">M.A.=Multiple Assessment</p>
+                <p id="p2">(Attendance, Cleanness, interpersonla relation, intrapersonal relation, etc.)</p>
+                <p id="p3">S.E. Subject Enrichment</p>
+                <p id="p2">(Subject specific application activities, Individual or Group Work, Class Discussion etc.)</p>
+                <p id="p3">Portfolio</p>
+                <p id="p2">(All records related to student, behaviour, FLN, performance etc.)</p>
+                </div></div>
+        </div>   
+    </div>
+    <div class="" id="section6">
+        <input type="button" name="button1" id="submit" class="btn" value="Generate PDF my Golu💕">
+    </div>
+    <div id="successMessage">
+      <p>I Love You Mera Gola</p>
+      <div class="tenor-gif-embed" data-postid="12472104" data-share-method="host" data-aspect-ratio="1.08" data-width="100%"><a href="https://tenor.com/view/brown-cony-line-love-cute-gif-12472104"></a>
+    </div> 
+      <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+     <button id="closeButton" value="a💋">💋Now Kiss me.</button>
+    </div>
+  
+    <script src="main.js"></script>
+</body>
+</html>
