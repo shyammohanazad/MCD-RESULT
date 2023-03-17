@@ -39,8 +39,10 @@
 }
 
 #page{
-    
+    border: 1px solid black;
     box-sizing: border-box;
+    border-radius: 3px;
+    margin: 15px;
 }
 .section{
 
